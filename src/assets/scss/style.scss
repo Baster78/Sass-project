@@ -18,6 +18,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.4rem;
   color: $white;
+  line-height: 1.5;
 }
 
 /* Blocks */
@@ -26,3 +27,6 @@ body {
 @import "blocks/sidebar";
 @import "blocks/main";
 @import "blocks/container";
+@import "blocks/profile";
+@import "blocks/social";
+@import "blocks/btn";
