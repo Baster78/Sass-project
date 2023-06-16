@@ -12,7 +12,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>Works</title>
+    <title>Profile</title>
   </head>
   <body>
     <div class="page">
@@ -112,67 +112,54 @@
       <!-- Main -->
       <main class="main">
         <div class="container">
-<h1 class="page__title">Мои работы</h1>
+<h1 class="page__title">Профиль</h1>
 
-<article class="work">
-  <div class="work__preview">
-    <img src="assets/images/works/work-1.jpg" alt="" />
-  </div>
-  <div class="work__content">
-    <h2 class="work__title">
-      <a href="#" target="_blank">altermono.com</a>
-    </h2>
-    <div class="work__description">
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo,
-        eum amet sapiente optio sunt incidunt at iste in temporibus, adipisci
-        voluptatum. Dignissimos accusantium totam dolor! Excepturi possimus
-        reprehenderit optio!
-      </p>
-    </div>
-    <ul class="tags">
-      <li class="tags__item">дизайн</li>
-      <li class="tags__item">создание сайта</li>
-      <li class="tags__item">SMM</li>
-    </ul>
-    <div class="work__footer">
-      <a class="btn btn--blue btn--rounded btn--sm" href="#" target="_blank"
-        >Перейти на сайт</a
-      >
-    </div>
-  </div>
-</article>
 
-<article class="work">
-  <div class="work__preview">
-    <img src="assets/images/works/work-2.jpg" alt="" />
+ 
+    <form action="/" class="form" method="post">
+      <div class="profile"></div>
+      <div class="profile__form">
+      <div class="form__group form__group--md">
+        <input
+          type="text"
+          class="form__control"
+          placeholder="Ваше имя"
+          value="Tash" />
+        <span class="form__line"></span>
+      </div>
+
+      <div class="form__group form__group--md">
+        <input
+          type="email"
+          class="form__control"
+          placeholder="Ваш email"
+          value="example@email.com" />
+        <span class="form__line"></span>
+      </div>
+
+      <div class="form__group form__group--md">
+        <input
+          type="password"
+          class="form__control"
+          placeholder="Новый пароль" />
+        <span class="form__line"></span>
+      </div>
+
+      <div class="form__group form__group--md">
+        <input
+          type="password"
+          class="form__control"
+          placeholder="Подтвердите пароль" />
+        <span class="form__line"></span>
+      </div>
+
+      <button class="btn btn--blue btn--rounded btn--sm" type="submit">
+        Сохранить
+      </button>
+    </form>
   </div>
-  <div class="work__content">
-    <h2 class="work__title">
-      <a href="#" target="_blank">altermono.com</a>
-    </h2>
-    <div class="work__description">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos at repellat
-        aliquid laboriosam tempora alias, architecto libero sapiente!
-        Asperiores, aut!
-      </p>
-    </div>
-    <ul class="tags">
-      <li class="tags__item">дизайн</li>
-      <li class="tags__item">создание сайта</li>
-      <li class="tags__item">SMM</li>
-      <li class="tags__item">дизайн</li>
-      <li class="tags__item">создание сайта</li>
-      <li class="tags__item">SMM</li>
-    </ul>
-    <div class="work__footer">
-      <a class="btn btn--blue btn--rounded btn--sm" href="#" target="_blank"
-        >Перейти на сайт</a
-      >
-    </div>
-  </div>
-</article>
+  <div class="profile__avatar"></div>
+</div>
 
 </div>
       </main>
