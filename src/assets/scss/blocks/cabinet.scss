@@ -4,6 +4,9 @@
 
 .cabinet__form {
   width: 340px;
+
+  @media (max-width: $tablet-bp) {
+  }
 }
 
 .cabinet__avatar {
@@ -13,6 +16,9 @@
   img {
     display: block;
     margin-bottom: 1.5rem;
+  }
+
+  @media (max-width: $tablet-bp) {
   }
 }
 
