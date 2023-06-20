@@ -5,11 +5,9 @@ title: Profile
 
 <h1 class="page__title">Профиль</h1>
 
-
- 
-    <form action="/" class="form" method="post">
-      <div class="profile"></div>
-      <div class="profile__form">
+<form action="/" class="form" method="post">
+  <div class="cabinet">
+    <div class="cabinet__form">
       <div class="form__group form__group--md">
         <input
           type="text"
@@ -43,11 +41,20 @@ title: Profile
           placeholder="Подтвердите пароль" />
         <span class="form__line"></span>
       </div>
+    </div>
+    <div class="cabinet__avatar">
+      <img src="https://placehold.it/150" alt="" />
 
-      <button class="btn btn--blue btn--rounded btn--sm" type="submit">
-        Сохранить
-      </button>
-    </form>
+      <label class="cabinet__file">
+        <input type="file" />
+        выбрать аватар
+      </label>
+    </div>
   </div>
-  <div class="profile__avatar"></div>
-</div>
+
+  <div class="form__footer">
+    <button class="btn btn--blue btn--rounded btn--sm" type="submit">
+      Сохранить
+    </button>
+  </div>
+</form>

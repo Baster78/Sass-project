@@ -1380,3 +1380,38 @@ a:hover {
     color: #fff;
     text-align: center;
 }
+
+.cabinet {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.cabinet__form {
+    width: 340px;
+}
+
+.cabinet__avatar {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding-left: 11rem;
+}
+
+.cabinet__avatar img {
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.cabinet__file {
+    font-size: 1.4rem;
+    color: #3137c9;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cabinet__file input {
+    display: none;
+}
+
+.cabinet__file:hover {
+    text-decoration: none;
+}
