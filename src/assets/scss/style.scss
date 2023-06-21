@@ -25,6 +25,12 @@ body {
   &.show-sidebar {
     overflow: hidden;
   }
+
+  @include breakpoint($mobile-bp) {
+    &.show-sidebar {
+      overflow: hidden;
+    }
+  }
 }
 
 a {
