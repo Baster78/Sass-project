@@ -5,6 +5,10 @@
   background-color: $secondary;
 
   border-radius: 5px;
+
+  @include breakpoint($tablet-bp) {
+    padding: 1.5rem;
+  }
 }
 
 .add-post__form {
@@ -67,7 +71,11 @@
 
 .add-post__send {
   margin-left: 1.5rem;
-  background: $blue;
+
+  font-size: 0;
+  color: transparent;
+
+  background: $blue url("../images/send.svg") center no-repeat;
 
   &:hover {
     background-color: darken($blue, 5%);
